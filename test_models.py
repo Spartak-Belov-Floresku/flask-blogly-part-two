@@ -15,7 +15,7 @@ class UserModelTestCase(TestCase):
     """Tests for model for User."""
 
     def setUp(self):
-        """Clean up any existing Users."""
+        """Clean up any existing Users, Posts"""
         Post.query.delete()
         User.query.delete()
 
