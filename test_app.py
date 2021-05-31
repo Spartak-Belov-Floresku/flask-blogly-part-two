@@ -17,11 +17,11 @@ db.drop_all()
 db.create_all()
 
 
-class UserViewsTestCase(TestCase):
-    """Tests for views for Pets."""
+class UserPostViewsTestCase(TestCase):
+    """Tests for views for User and Posts."""
 
     def setUp(self):
-        """Add sample pet."""
+        """Add sample user and post."""
 
         Post.query.delete()
         User.query.delete()
