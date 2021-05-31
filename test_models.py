@@ -11,8 +11,8 @@ db.drop_all()
 db.create_all()
 
 
-class UserModelTestCase(TestCase):
-    """Tests for model for User."""
+class UserPostModelTestCase(TestCase):
+    """Tests for model for User and Post"""
 
     def setUp(self):
         """Clean up any existing Users, Posts"""
