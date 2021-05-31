@@ -46,7 +46,7 @@ class UserModelTestCase(TestCase):
         self.assertEqual(post.user_id, 1)
 
 
-    """run test to insert user data into database"""
+    """run test to insert post data into database"""
     def test_insert_post_to_db(self):
 
         user = User(first_name='Tom', last_name='Smith')
