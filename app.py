@@ -155,7 +155,7 @@ def show_post(id):
 def edit_post_form(id):
     """Show form to edit a post, and to cancel (back to user page)"""
 
-    """Get user from db"""
+    """Get post from db"""
     post = Post.query.get(id)
 
     return render_template('edit_post.html', post=post)
