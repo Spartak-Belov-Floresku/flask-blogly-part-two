@@ -41,4 +41,4 @@ class Post(db.Model):
 
 
     def __repr__(self):
-        return f'<Post id: {self.id} - created adte {self.created_at} by the user: {self.user}>'
+        return f'<Post id: {self.id} - created date {self.created_at} by the user: {self.user}>'
